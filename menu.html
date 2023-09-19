@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Web Site</title>
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Style CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="products.html">Products</a>
+        <a href="review.html">Review</a>
+        <a href="contactUs.html">Contact</a>
+        <a href="blogs.html">Blogs</a>
+      </nav>
+      <div class="buttons">
+        <button id="search_btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button id="cart_btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <button id="menu_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <div class="search_form">
+        <input type="text" class="search_input" id="search_box" placeholder="Search Here">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="cart_items_container">
+        <div class="cart_item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="images/menu-1.png" alt="">
+          <div class="content">
+            <h3>Cart Item 01</h3>
+            <div class="price">15.99$</div>
+          </div>
+        </div>
+        <div class="cart_item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="images/menu-2.png" alt="">
+          <div class="content">
+            <h3>Cart Item 02</h3>
+            <div class="price">15.99$</div>
+          </div>
+        </div>
+        <div class="cart_item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="images/menu-3.png" alt="">
+          <div class="content">
+            <h3>Cart Item 03</h3>
+            <div class="price">15.99$</div>
+          </div>
+        </div>
+        <div class="cart_item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="images/menu-4.png" alt="">
+          <div class="content">
+            <h3>Cart Item 04</h3>
+            <div class="price">15.99$</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Checkout Now</a>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Menu Page Start -->
+    <section class="menu" id="menu">
+      <h1 class="heading">OUR <span>MENU</span></h1>
+      <div class="box_container">
+        <div class="box">
+          <div class="box_head">
+            <img src="images/menu-1.png" alt="" />
+            <span class="menu_category">Pizza</span>
+            <h3>6 Mini Pizzas</h3>
+            <div class="menu_price">84.99$ <span>119.99$</span></div>
+          </div>
+          <div class="box_bottom">
+            <a href="#" class="btn">Add to Card</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_head">
+            <img src="images/menu-2.png" alt="" />
+            <span class="menu_category">Burger</span>
+            <h3>5 Mini Burgers</h3>
+            <div class="menu_price">64.99$ <span>89.99$</span></div>
+          </div>
+          <div class="box_bottom">
+            <a href="#" class="btn">Add to Card</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_head">
+            <img src="images/menu-3.png" alt="" />
+            <span class="menu_category">Pizza</span>
+            <h3>2 Mixed Pizzas</h3>
+            <div class="menu_price">49.99$ <span>79.99$</span></div>
+          </div>
+          <div class="box_bottom">
+            <a href="#" class="btn">Add to Card</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_head">
+            <img src="images/menu-4.png" alt="" />
+            <span class="menu_category">Burger</span>
+            <h3>3 Meatball Burgers</h3>
+            <div class="menu_price">79.99$ <span>89.99$</span></div>
+          </div>
+          <div class="box_bottom">
+            <a href="#" class="btn">Add to Card</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Page End -->
+
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="search">
+        <input type="text" class="search_input" placeholder="Search"> 
+        <button class="btn btn_primary">Search</button>
+      </div>
+      <div class="social_media_area">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+      <div class="quick_links">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </div>
+      <div class="create">
+        Created by <span>Udemig</span> | All Rights Reserved
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

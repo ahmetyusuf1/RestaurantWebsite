@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Web Site</title>
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Style CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="products.html">Products</a>
+        <a href="review.html">Review</a>
+        <a href="contactUs.html" class="active">Contact</a>
+        <a href="blogs.html">Blogs</a>
+      </nav>
+      <div class="buttons">
+        <button id="search_btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button id="cart_btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <button id="menu_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <div class="search_form">
+        <input type="text" class="search_input" id="search_box" placeholder="Search Here">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="cart_items_container">
+        <div class="cart_item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="images/menu-1.png" alt="">
+          <div class="content">
+            <h3>Cart Item 01</h3>
+            <div class="price">15.99$</div>
+          </div>
+        </div>
+        <div class="cart_item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="images/menu-2.png" alt="">
+          <div class="content">
+            <h3>Cart Item 02</h3>
+            <div class="price">15.99$</div>
+          </div>
+        </div>
+        <div class="cart_item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="images/menu-3.png" alt="">
+          <div class="content">
+            <h3>Cart Item 03</h3>
+            <div class="price">15.99$</div>
+          </div>
+        </div>
+        <div class="cart_item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="images/menu-4.png" alt="">
+          <div class="content">
+            <h3>Cart Item 04</h3>
+            <div class="price">15.99$</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Checkout Now</a>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Contact Us Page Start -->
+    <section class="contactUs" id="contactUs">
+      <h1 class="heading">Contact <span>Us</span></h1>
+      <div class="row">
+        <iframe class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12024.014216152142!2d29.016111!3d41.11261345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5bf15c34913%3A0x19571e96a2eaf2f6!2zTWFzbGFrLCBTYXLEsXllci_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1694956019920!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="#">
+            <h3>Get In Touch</h3>
+            <div class="input_box">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="input_box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="E-Mail">
+            </div>
+            <div class="input_box">
+                <i class="fa-solid fa-phone"></i>
+                <input type="number" placeholder="Phone Number">
+            </div>
+            <input type="submit" class="btn" value="Contact Now">
+        </form>
+      </div>
+    </section>
+    <!-- Contact Us Page End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="search">
+        <input type="text" class="search_input" placeholder="Search"> 
+        <button class="btn btn_primary">Search</button>
+      </div>
+      <div class="social_media_area">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+      <div class="quick_links">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </div>
+      <div class="create">
+        Created by <span>Udemig</span> | All Rights Reserved
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
