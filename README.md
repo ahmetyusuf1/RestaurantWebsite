@@ -17,19 +17,14 @@ Users can view their cart, correct its contents and complete the order.</p>
 
 <h2>Used Technologies</h2>
 
-<h3>Used Languages</h3>
-
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
-</ul>
-
-<h3>Used Libraries</h3>
-
-<ul>
   <li>Google Fonts</li>
   <li>Font Awesome</li>
 </ul>
+
+  
 
 
